@@ -29,7 +29,7 @@ class RoomSeeder extends Seeder
                 'air_condition_type' => 'A/C',
                 'no_of_pax' => '3 Pax',
                 'bed_type' => 'Master Bed',
-                'image' => 'https://i.pinimg.com/564x/55/52/48/555248662f8d70fbbd6c09e34b11f907.jpg',
+                'image' => 'https://static.asianpaints.com/content/dam/asianpaintsbeautifulhomes/gallery/bedroom/a-spacious-master-bedroom-design-with-rich-wooden-tones/wooden-tones.jpg',
                 'description' => 'Indulge in the ultimate luxury experience with our exquisite Luxury Room. Revel in opulent surroundings, top-notch amenities, and unparalleled comfort. Treat yourself to an extraordinary stay in style and sophistication.',
                 'quantity' => 8
             ],
