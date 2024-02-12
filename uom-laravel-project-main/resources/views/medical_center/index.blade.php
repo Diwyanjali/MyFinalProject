@@ -27,7 +27,7 @@
                                 <input type="text" name="keyword" class="form-control" value="{{ request('keyword') }}" placeholder="Search by name">
                             </div>
 
-                            
+                            <!--Specialization-->
                             <div class="col-auto">
                                 <select name="specialization" class="form-control">
                                     <option value="">Select the specialization</option>

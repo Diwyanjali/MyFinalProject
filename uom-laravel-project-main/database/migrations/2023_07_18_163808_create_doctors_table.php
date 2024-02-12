@@ -17,7 +17,7 @@ return new class extends Migration
             $table->unsignedBigInteger('specialization_id');
             $table->string('code');
             $table->string('name');
-            $table->string('ABC')->nullable();
+            $table->string('description')->nullable();
             $table->foreign('user_id')->references('id')->on('users');
             $table->foreign('specialization_id')->references('id')->on('doctor_specializations');
             $table->timestamps();

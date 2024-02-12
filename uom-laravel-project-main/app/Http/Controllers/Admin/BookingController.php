@@ -74,7 +74,7 @@ class BookingController extends Controller
 
         return redirect()->route('admin.time_slots.doctor')->with($notification);
     }
-          //edit
+
     public function showDoctorTimeSlot($id)
     {
         $doctors = Doctor::all();

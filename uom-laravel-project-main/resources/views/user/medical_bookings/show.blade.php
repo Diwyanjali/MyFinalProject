@@ -22,7 +22,7 @@
 
                 <div class="row justify-content-center">
 
-                    
+                    <!--Patient's Details-->
                     <div class="col-md-6 col-sm-6 col-6 col-lg-3 mb-3">
                         <div class="card">
                             <div class="card-body">
@@ -40,7 +40,7 @@
                         </div>
                     </div>
 
-                    
+                    <!--Doctor's Details-->
                     <div class="col-md-6 col-sm-6 col-lg-3 col-6">
                         <div class="card mb-3">
                             <div class="card-body">

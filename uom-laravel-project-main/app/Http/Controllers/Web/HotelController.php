@@ -49,7 +49,7 @@ class HotelController extends Controller
             ->with('error', 'you cannot book the rooms over the available number of  rooms');
         }
 
-        
+        //add booking
         $booking = new RoomBooking();
         $booking->user_id = Auth::user()->id;
         $booking->room_id = $room->id;

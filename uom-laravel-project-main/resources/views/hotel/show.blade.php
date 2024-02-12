@@ -62,7 +62,7 @@
                         <form action="{{ route('web.hotel.store') }}" method="post">
                             @csrf
 
-                            
+                            <!-- Reservation Information-->
                             <div class="card mb-3">
                                 <div class="card-body">
 
@@ -70,10 +70,10 @@
                                         Reservation Information
                                     </h6>
 
-                                    
+                                    <!--room id-->
                                     <input type="hidden" name="room_id" value="{{ $room->id }}">
 
-                                    
+                                    <!--No of Rooms-->
                                     <div class="row mb-3">
                                         <label for="no_of_rooms" class="form-label">
                                             No of Rooms <span class="text-danger">*</span>
@@ -88,7 +88,7 @@
                                         @enderror
                                     </div>
 
-                                    
+                                    <!--Check-In-->
                                     <div class="row mb-3">
                                         <label for="checkin" class="form-label">
                                             Check-In <span class="text-danger">*</span>
@@ -103,7 +103,7 @@
                                         @enderror
                                     </div>
 
-                                    
+                                    <!--Check-out-->
                                     <div class="row mb-3">
                                         <label for="checkout" class="form-label">
                                             Check-out <span class="text-danger">*</span>
@@ -120,7 +120,7 @@
                                 </div>
                             </div>
 
-                            
+                            <!--Treatment Information-->
                             <div class="card mb-3">
                                 <div class="card-body">
                                     <h6 class="card-title mb-3">

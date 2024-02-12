@@ -51,10 +51,10 @@
                                         Consultation Information
                                     </h6>
 
-                                    
+                                    <!--doctor id-->
                                     <input type="hidden" name="doctor_id" value="{{ $doctor->id }}">
 
-                                    
+                                    <!--Date-->
                                     <div class="mb-3">
                                         <label for="doctor_shedule" class="form-label">Select Date <span
                                                 class="text-danger">*</span></label>
@@ -65,7 +65,7 @@
                                         @enderror
                                     </div>
 
-                                    
+                                    <!--Time-->
                                     <div class="mb-3">
                                         <label for="doctor_shedule" class="form-label">Select Time Slot <span
                                                 class="text-danger">*</span></label>
@@ -78,7 +78,7 @@
                                         @enderror
                                     </div>
 
-                                    
+                                    <!--disease-->
                                     <div class="mb-3">
                                         <label for="disease" class="form-label">Describe your disease <span
                                                 class="text-danger">*</span></label>

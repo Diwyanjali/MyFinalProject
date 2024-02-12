@@ -106,9 +106,9 @@ class UserController extends Controller
         $booking = Auth::user()->RoomBookings()->where('id', $request->id)->first();
         $booking->status = "cancel";
         $booking->update();
-        $booking->Room->update([
-            'quantity' => $booking->no_of_rooms
-        ]);
+        $booking->Room->update(//[
+            //'quantity' => $booking->no_of_rooms ]
+        );
         return redirect()->back()->with('success', 'Successfully Cancel your Reservation !');
     }
 
@@ -120,3 +120,4 @@ class UserController extends Controller
         return redirect()->back()->with('success', 'Successfully Cancel your Appointment !');
     }
 }
+

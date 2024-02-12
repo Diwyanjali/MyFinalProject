@@ -27,7 +27,14 @@
                                 </div>
 
                                 <!--description-->
-                               
+                                <div class="mb-3">
+                                    <label for="exampleInputUsername1" class="form-label">Drug Description</label>
+                                    <textarea type="text" name="description" class="form-control @error('description') is-invalid @enderror"
+                                        placeholder="Description">{{ old('description') }}</textarea>
+                                    @error('description')
+                                        <span class="text-danger">{{ $message }} </span>
+                                    @enderror
+                                </div>
 
                                 <!--quantity-->
                                 <div class="mb-3">

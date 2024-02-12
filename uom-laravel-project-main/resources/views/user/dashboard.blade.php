@@ -27,7 +27,7 @@
                                     @csrf
                                     <div class="row">
 
-                                        
+                                        <!--name-->
                                         <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label for="doctor_shedule" class="form-label">Name <span
@@ -42,7 +42,7 @@
                                         </div>
 
 
-                                        
+                                        <!--Email-->
                                         <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label for="doctor_shedule" class="form-label">E-mail <span
@@ -57,7 +57,7 @@
                                             </div>
                                         </div>
 
-                                        
+                                        <!--phone-->
                                         <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label for="doctor_shedule" class="form-label">Phone <span
@@ -71,7 +71,7 @@
                                             </div>
                                         </div>
 
-                                        
+                                        <!--nic-->
                                         <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label for="doctor_shedule" class="form-label">NIC <span
@@ -85,7 +85,7 @@
                                             </div>
                                         </div>
 
-                                        
+                                        <!--dob-->
                                         <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label for="doctor_shedule" class="form-label">Birthday <span
@@ -99,7 +99,7 @@
                                             </div>
                                         </div>
 
-                                        
+                                        <!--address-->
                                         <div class="col-md-6">
                                             <div class="mb-3">
                                                 <label for="doctor_shedule" class="form-label">Address <span

@@ -22,7 +22,7 @@
                                     <tr>
                                         <th>ID</th>
                                         <th>Name</th>
-                                        <th>ABC</th>
+                                        <th>Description</th>
                                         <th>Quantity</th>
                                         <th>Status</th>
                                         <th class="text-center">Action</th>
@@ -33,7 +33,7 @@
                                         <tr>
                                             <td>{{ $key + 1 }}</td>
                                             <td>{{ $drug->name }}</td>
-                                            <td>{{ $drug->ABC }}</td>
+                                            <td>{{ $drug->description }}</td>
                                             <td>
                                                 @if($drug->quantity == 0)
                                                 <span class="badge text-bg-danger">Out of Stock</span>

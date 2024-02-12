@@ -26,7 +26,7 @@
                                     <form action="{{ route('user.reviews.post') }}" method="post">
                                         @csrf
 
-                                        
+                                        <!--service-->
                                         <div class="col-md-8">
                                             <div class="mb-3">
                                                 <label for="doctor_shedule" class="form-label">Service <span
@@ -46,7 +46,7 @@
                                             </div>
                                         </div>
 
-                                        
+                                        <!--comment-->
                                         <div class="col-md-8">
                                             <div class="mb-3">
                                                 <label for="doctor_shedule" class="form-label">Your Feedback <span
@@ -98,7 +98,7 @@
         </div>
     </div>
 
-    
+    <!--delete alert-->
     <div class="modal fade" id="modal-delete" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
